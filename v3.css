@@ -1,0 +1,151 @@
+*{
+box-sizing: border-box;
+margin:0;
+padding:0;
+}
+
+#background{
+background-image: url("assets/Background.png");
+background-repeat: no-repeat;
+background-size: cover
+
+}
+
+header, footer{
+width: 94%;
+margin: auto;
+height: 100px;
+}
+
+#left{
+padding: 30px 50px;
+}
+
+.right{
+float: right;
+margin-left: 1%;
+margin-top: 1.5%;
+}
+
+img.right, a.right {
+padding-top: 10px;
+text-decoration: none;
+}
+
+header p{
+margin-right: 2.5%;
+}
+
+.buttonLink{
+border-radius: 6px;
+width: 175px;
+padding: 5px 10px;
+background-color: black;
+color: white;
+padding:10px 0px;
+text-align: center;
+}
+
+.buttonSecondPart{
+color: rgb(150,150,150);
+}
+
+/** ----------------------- Section --------------------- **/
+
+section{
+width: 35%;
+height: 275px;
+margin: auto;
+}
+
+section h1, p, a{
+text-align:center;
+padding: 8px 0px;
+}
+
+section h1{
+font-size: 3vw;
+font-weight: 1200;
+}
+
+section p.buttonLink{
+margin:auto;
+}
+
+/** ---------------------- Aside ----------------------**/
+
+aside{
+width:94%;
+
+}
+
+aside img{
+height:500px;
+object-fit:fill;
+margin-left:6%;
+}
+
+/** ----------------------Article --------------------**/
+
+article{
+display:inline-block;
+width:60%;
+height:500px;
+}
+
+article h1, pre{
+text-align:left;
+font-size: 1.3vw;
+}
+
+article h1{
+line-height:1.5;
+padding-top:150px;
+}
+
+article p.buttonLink{
+margin-top:20px;
+}
+
+article div{
+position:relative;
+top:0px;
+left:150px;
+}
+
+/** ------------------- Figure ---------------------**/
+
+figure{
+width:40%;
+
+float:right;
+}
+
+figure img{
+object-fit:fill;
+height:500px;
+width:85%;
+padding-top:100px;
+
+}
+
+/** ------------------ Footer -------------------- **/
+
+footer{
+margin-top: 50px;
+}
+
+footer p{
+font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+float: right;
+position: relative;
+right: 75px;
+top: 15px;
+font-size: 1.5vw;
+font-stretch: ultra-expanded;
+
+}
+
+header, article .buttonLink{
+text-decoration:none;
+{
